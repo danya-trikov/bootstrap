@@ -1,0 +1,54 @@
+@import "/styles/normalize.css";
+:root{
+    --body-color: #1D1E22;
+}
+.header {
+    
+}
+
+.container {
+
+    &-XX {
+        background-color: var(--body-color);
+    }
+}
+.col-4{
+    &-list{
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 32 px;
+        list-style: none;
+        color: #fff;
+
+    }
+    &-img{
+        padding-top: px;
+    }
+}
+.col-9{
+    &-p{
+    color: #fff;
+    padding: 12px 0px 0px 8px;
+    }
+    &-text{
+        display: flex;
+        justify-self: start;
+    }
+}
+
+.butt{
+    &-first{
+        height: fixed 49px;
+        width: fixed 153px;
+        border-radius: 30px 16px 16px 16px;
+    }
+    &-second{
+        border-radius: 16px;
+        height: fixed 50px;
+        width: fixed 100px;
+    }
+}
+.english-png{
+    padding-top: 7px;
+}
